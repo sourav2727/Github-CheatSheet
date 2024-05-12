@@ -26,7 +26,7 @@
 - git commit -m "any Message"
 - git push origin main
 
-#####when you do small changes in local repository and you want it in your remote repository  also ....you do using git push command
+##### when you do small changes in local repository and you want it in your remote repository  also,you do using this command
 -git push
 
 
