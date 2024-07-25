@@ -54,6 +54,18 @@
 // merge two branch
 - another way to merge is making a pull request
 
+### Scenario
+suppose you have two branchs and one is behind another , you make pull request on remote origin(github) and the branch which was behind another branch is now up to date.
+and you want same thing happens with your loacl system,then you need to be on the branch you want to update, and you should use that branch's name in the command.
+switch to the branch you want to update.
+command goes like this------
+
+- git checkout branch-name
+//switching existing branch to another branch
+- git pull origin (name of the branch you want to update)
+
+
+
 
 
 
