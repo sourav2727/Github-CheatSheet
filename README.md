@@ -1,7 +1,7 @@
 ### Git Command When you not adding README.md file
 - git init
 - git branch -M main
-  //changing branch to main from default  master branch
+  //Renaming branch to main from default  master branch
 - git branch 
   //for checking branch (optional)
 - git remote add origin "Repositery Link"
@@ -28,6 +28,10 @@
 
 ##### when you do small changes in local repository and you want it in your remote repository  also,you do using this command
 -git push
+
+###
+- git checkout -b <new-branch-name>
+//Create and Switch to the New Branch
 
 
 
