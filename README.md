@@ -47,6 +47,13 @@
 - git push origin --delete <branch-name>
 //deleting a remote branch
 
+### Merge
+- git diff branch-name
+// showing difference between existing branch and branch name that added in the command
+- git merge branch-name
+// merge two branch
+- another way to merge is making a pull request
+
 
 
 
