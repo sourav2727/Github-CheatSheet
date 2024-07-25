@@ -8,12 +8,6 @@
 - git push origin main
 
 
-#### If branch already exist shows
-- git remote
-- git remote remove origin
-- git remote add origin "Repositery Link"
-- git push origin main
-
 ### If README.md is added to the Repositery 
 
   //first copy the url from code option 
@@ -24,14 +18,36 @@
 - git add .
 //add all the files to the Repositery 
 - git commit -m "any Message"
+- git push -u origin main
+
+
+#### If branch already exist shows
+- git remote
+- git remote remove origin
+- git remote add origin "Repositery Link"
 - git push origin main
+
 
 ##### when you do small changes in local repository and you want it in your remote repository  also,you do using this command
 -git push
+//under one condition while pushing -u should be added
 
-###
-- git checkout -b <new-branch-name>
+
+### Branch
+- git branch
+// To check branch
+- git branch -M branch-name
+// renaming branch name
+- git checkout -b new-branch-name
 //Create and Switch to the New Branch
+- git checkout branch-name
+//switching existing branch to another branch
+- git branch -d branch-name
+// deleting existing branch
+- git push origin --delete <branch-name>
+//deleting a remote branch
+
+
 
 
 
